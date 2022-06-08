@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/RennanPereira/Frontend-Mentor-Challenge-expenses-chart)
-- Live Site URL: [Add live site URL here](https://rennanpereira.github.io/Frontend-Mentor-Challenge-expenses-chart/)
+- Solution URL: [github.com/RennanPereira/Frontend-Mentor-Challenge-expenses-chart](https://github.com/RennanPereira/Frontend-Mentor-Challenge-expenses-chart)
+- Live Site URL: [rennanpereira.github.io/Frontend-Mentor-Challenge-expenses-chart/](https://rennanpereira.github.io/Frontend-Mentor-Challenge-expenses-chart/)
 
 ### Built with
 
