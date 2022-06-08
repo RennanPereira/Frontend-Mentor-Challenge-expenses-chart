@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css">
+
+    <title>Frontend Mentor | Expenses chart component</title>
+  </head>
+  <body>
+    <main>
+      <div class="chart">
+        <div class="title-Logo">
+          <div class="title">
+            <h2>My balance</h2>
+            <h1>$921.48</h1>
+          </div>
+
+          <div class="logo"><img src="./images/logo.svg" alt="" /></div>
+        </div>
+
+        <div class="values">
+          <h2>Spending - Last 7 days</h2>
+
+          <div class="days">
+            <ul>
+              <li>
+                <h5 id="money-mon">17.45</h5>
+                <div class="box" id="mon"></div>
+                <p class="dayName">mon</p>
+              </li>
+              <li>
+                <h5 id="money-tue">34.91</h5>
+                <div class="box" id="tue"></div>
+                <p class="dayName">tue</p>
+              </li>
+              <li>
+                <h5 id="money-wed" class=" ativo current">52.36</h5>
+                <div class="box selected" id="wed"></div>
+                <p class="dayName">wed</p>
+              </li>
+              <li>
+                <h5 id="money-thu">31.07</h5>
+                <div class="box" id="thu"></div>
+                <p class="dayName">thu</p>
+              </li>
+              <li>
+                <h5 id="money-fri">23.39</h5>
+                <div class="box" id="fri"></div>
+                <p class="dayName">fri</p>
+              </li>
+              <li>
+                <h5 id="money-sat">43.28</h5>
+                <div class="box" id="sat"></div>
+                <p class="dayName">sat</p>
+              </li>
+              <li>
+                <h5 id="money-sun">25.48</h5>
+                <div class="box" id="sun"></div>
+                <p class="dayName">sun</p>
+              </li>
+            </ul>
+          </div>
+          <div class="spends">
+            <div class="total">
+              <p>Total this month</p>
+              <h3>$478.33</h3>
+            </div>
+            <div class="porcents">
+              <h4>+2.4%</h4>
+              <p>from last month</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">Rennan Pereira</a>.
+        </div>
+      </div>
+    </main>
+    <script src="./javascript/index.js"></script>
+  </body>
+</html>

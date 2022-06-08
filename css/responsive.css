@@ -1,0 +1,9 @@
+@media(max-width:376px){
+  main{
+    width: 350px;
+  }
+
+  .chart .values .days ul {
+    height: 200px;
+  }
+}
